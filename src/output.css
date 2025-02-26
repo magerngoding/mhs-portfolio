@@ -21,6 +21,7 @@
     --container-sm: 24rem;
     --container-xl: 36rem;
     --text-xs: 0.75rem;
+    --text-xs--line-height: calc(1 / 0.75);
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
@@ -377,6 +378,9 @@
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
   }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
+  }
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
   }
@@ -506,6 +510,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1417,6 +1424,10 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+  .text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
   .text-xs\/relaxed {
     font-size: var(--text-xs);
     line-height: var(--leading-relaxed);
@@ -1907,6 +1918,9 @@
   .\[keywords\:node-addon-api\] {
     keywords: node-addon-api;
   }
+  .\[n\:3\15 ��ԛ\] {
+    n: 3��ԛ;
+  }
   .backface-hidden {
     backface-visibility: hidden;
   }
@@ -2082,7 +2096,7 @@
 }
 @font-face {
   font-family: 'Poppins';
-  src: url(../assets/fonts/Poppins-Regular.ttf) format('truetype');
+  src: url(/src/assets/fonts/Poppins-Regular.ttf) format('truetype');
 }
 body {
   font-family: 'Poppins', sans-serif;
