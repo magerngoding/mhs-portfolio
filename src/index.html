@@ -6,7 +6,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <meta name="description" content="Beberapa contoh Portfolio projects saya Website & Mobile">
+    <meta name="description" content="Some examples of my Portfolio projects Website & Mobile">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -15,6 +15,8 @@
 
 <body>
     <header></header>
+
+    <!-- About Me -->
     <main>
         <section
             class="bg-gray-900 overflow-hidden sm:grid sm:grid-cols-2 min-h-screen flex items-center justify-center ">
@@ -61,11 +63,12 @@
                 class="h-56 w-full object-cover sm:h-full rounded-lg" />
         </section>
 
+        <!-- My Skills -->
         <section class="skills sm:p-6 mt-12">
             <h2 class="text-3xl text-black text-center font-bold animate__animated animate__fadeInUp">
-                Skills</h2>
+                My Skills</h2>
             <div class=" px-4 py-5 sm:px-6">
-                <ul class="mt-8 flex justify-center md:gap-8">
+                <ul class="skills-list mt-8 flex flex-wrap justify-center md:gap-8">
                     <li>
                         <img src="assets/images/ic_figma.png" class="h-24 w-full object-cover" alt="figma">
                     </li>
@@ -91,10 +94,11 @@
             </div>
         </section>
 
+        <!-- My Projects -->
         <section class="my-projects sm:p-6 mt-12">
             <h2 class="text-3xl text-black text-center mb-10 font-bold animate__animated animate__fadeInUp">My Projects
             </h2>
-            <div class="projects-list flex gap-x-6 justify-center">
+            <div class="projects-list gap-x-6 justify-center flex flex-wrap">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
                     <img alt="thumbnail mobile 1" src="assets/images/thumbnail_mobile1.webp"
                         class="h-56 w-full object-cover" />
@@ -129,7 +133,7 @@
                     </div>
                 </article>
             </div>
-            <div class="projects-list flex gap-x-6 justify-center my-10">
+            <div class="projects-list gap-x-6 justify-center my-10 flex flex-wrap">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
                     <img alt="thumbnail mobile 4" src="assets/images/thumbnail_mobile4.webp"
                         class="h-56 w-full object-cover" />
@@ -163,7 +167,7 @@
                     </div>
                 </article>
             </div>
-            <div class="projects-list flex gap-x-6 justify-center my-10">
+            <div class="projects-list gap-x-6 justify-center my-10 flex flex-wrap">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
                     <img alt="thumbnail mobile 7" src="assets/images/thumbnail_mobile10.webp"
                         class="h-56 w-full object-cover" />
@@ -197,7 +201,7 @@
                     </div>
                 </article>
             </div>
-            <div class="projects-list flex gap-x-6 justify-center my-10">
+            <div class="projects-list gap-x-6 justify-center my-10 flex flex-wrap">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
                     <img alt="thumbnail mobile 7" src="assets/images/thumbnail_mobile7.webp"
                         class="h-56 w-full object-cover" />
@@ -231,12 +235,12 @@
                     </div>
                 </article>
             </div>
-            <div class="projects-list flex gap-x-6 justify-center my-10">
+            <div class="projects-list gap-x-6 justify-center my-10 flex flex-wrap">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
                     <img alt="" src="assets/images/thubmnail_cashier.png" class="h-56 w-96  object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
-                        <a href="./pages/cashier_landing_page.html">
+                        <a href="assets/images/cashierweb1.webp" target="_blank">
                             <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Cashier Landing Page
                         </a>
                     </div>
@@ -245,7 +249,7 @@
                     <img alt="" src="assets/images/thumbnail_createweb.webp" class="h-56 w-96  object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
-                        <a href="./pages/createweb_landing_page.html">
+                        <a href="assets/images/createweb2.webp" target="_blank">
                             <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">CreateWeb Landing Page
                         </a>
                     </div>
@@ -264,6 +268,7 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-gray-300" id="contact-me">
         <div class="mx-auto max-w-sm px-4 py-5 sm:px-6 lg:px-8">
             <ul class="mt-12 flex justify-center gap-6 md:gap-8">
@@ -307,9 +312,6 @@
             <p class="text-center text-xs/relaxed text-gray-500 mt-5">
                 Created By Muhammad Siaj Hafizh 2025
                 <br />
-                Created with
-                <a href="https://tailwindcss.com/" target="_blank"
-                    class="text-gray-700 underline transition hover:text-gray-700/75">Tailwind CSS</a>
             </p>
         </div>
     </footer>

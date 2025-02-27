@@ -5,10 +5,10 @@
     src: url(/src/assets/fonts/Poppins-Regular.ttf) format('truetype');
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
