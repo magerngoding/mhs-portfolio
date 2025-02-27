@@ -3,40 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
     <title>PORTFOLIO</title>
+    <meta name="description" content="Beberapa contoh Portfolio projects saya Website & Mobile">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./output.css">
 
 <body>
     <header></header>
     <main>
         <section
-            class="bg-gray-900 overflow-hidden sm:grid sm:grid-cols-2 min-h-screen flex items-center justify-center">
+            class="bg-gray-900 overflow-hidden sm:grid sm:grid-cols-2 min-h-screen flex items-center justify-center ">
             <div class="p-8 md:p-12 lg:px-16 lg:py-24">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <div class="flex items-start gap-4">
+                    <div class="flex items-start gap-4 animate__animated animate__fadeInDown animate__delay-1s">
                         <img src="../src/assets/images/foto.jpeg" alt=""
-                            class="size-20 rounded-lg object-cover w-20 h-25 object-top" />
+                            class="size-20 rounded-lg object-cover w-20 h-25 object-top " />
                         <div>
                             <h2
-                                class="animate__animated animate__backInDown animate__delay-1s bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-poppins text-xl font-bold text-transparent sm:text-3xl mt-8 ">
+                                class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-poppins text-xl font-bold text-transparent sm:text-3xl mt-8 ">
                                 MUHAMMAD SIRAJ HAFIZH
                             </h2>
                         </div>
                     </div>
-                    <p
-                        class="text-white animate__animated animate__backInLeft animate__delay-2s mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-                        Frontend Developer | Flutter Developer | IT Support
-                    </p>
-                    <p class="hidden text-gray-400  text-sm md:mt-6 md:block">
-                        A flexible and adaptable IT with expertise in problem solving and analysis. Experienced in
-                        hardware and software troubleshooting, as well as transforming designs from Figma to Flutter and
-                        Figma to HTML with Tailwind CSS. Skilled in communicating with multiple stakeholders and
-                        creating
-                        innovative solutions.
-                    </p>
+                    <div class="animate__animated animate__fadeInLeft animate__delay-2s">
+                        <p class="text-white mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+                            Frontend Developer | Flutter Developer | IT Support
+                        </p>
+                        <p class="hidden text-gray-400  text-sm md:mt-6 md:block">
+                            A flexible and adaptable IT with expertise in problem solving and analysis. Experienced in
+                            hardware and software troubleshooting, as well as transforming designs from Figma to Flutter
+                            and
+                            Figma to HTML with Tailwind CSS. Skilled in communicating with multiple stakeholders and
+                            creating
+                            innovative solutions.
+                        </p>
+                    </div>
+                    <button
+                        class="group relative inline-block focus:ring-3 focus:outline-hidden mt-7 animate__animated animate__fadeInUp animate__delay-3s"
+                        href="" onclick="location.href='#contact-me'">
+                        <span
+                            class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-yellow-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+
+                        <span
+                            class="relative inline-block border-2  border-amber-100 px-8 py-3 font-semibold tracking-widest text-black uppercase">
+                            Contact Me
+                        </span>
+                    </button>
                 </div>
             </div>
             <img alt=""
@@ -44,11 +61,43 @@
                 class="h-56 w-full object-cover sm:h-full rounded-lg" />
         </section>
 
-        <section class="my-projects sm:p-6">
-            <h2 class="text-2xl text-black text-center mt-20 mb-10 font-bold ">My Projects</h2>
+        <section class="skills sm:p-6 mt-12">
+            <h2 class="text-3xl text-black text-center font-bold animate__animated animate__fadeInUp">
+                Skills</h2>
+            <div class=" px-4 py-5 sm:px-6">
+                <ul class="mt-8 flex justify-center md:gap-8">
+                    <li>
+                        <img src="/src/assets/images/ic_figma.png" class="h-24 w-full" alt="figma">
+                    </li>
+                    <li>
+                        <img src="/src/assets/images/ic_html.png" class="h-24 w-full" alt="html5">
+                    </li>
+                    <li>
+                        <img src="/src/assets/images/ic_tailwind.png" class="h-24 w-full" alt="tailwindcss">
+                    </li>
+                    <li>
+                        <img src="/src/assets/images/ic_flutter.png" class="h-24 w-full" alt="flutter">
+                    </li>
+                    <li>
+                        <img src="/src/assets/images/ic_laravel.png" class="h-24 w-full" alt="laravel">
+                    </li>
+                    <li>
+                        <img src="/src/assets/images/ic_postman.webp" class="h-24 w-full" alt="postman">
+                    </li>
+                    <li>
+                        <img src="/src/assets/images/ic_mysql.png" class="h-24 w-full" alt="mysql">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="my-projects sm:p-6 mt-12">
+            <h2 class="text-3xl text-black text-center mb-10 font-bold animate__animated animate__fadeInUp">My Projects
+            </h2>
             <div class="projects-list flex gap-x-6 justify-center">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile1.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 1" src="../src/assets/images/thumbnail_mobile1.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="">
@@ -58,7 +107,8 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile2.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 2" src="../src/assets/images/thumbnail_mobile2.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -68,7 +118,8 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile3.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 3" src="../src/assets/images/thumbnail_mobile3.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -80,7 +131,8 @@
             </div>
             <div class="projects-list flex gap-x-6 justify-center my-10">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile4.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 4" src="../src/assets/images/thumbnail_mobile4.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -90,7 +142,8 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile5.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 5" src="../src/assets/images/thumbnail_mobile5.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -99,7 +152,8 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile6.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 6" src="../src/assets/images/thumbnail_mobile6.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -111,7 +165,8 @@
             </div>
             <div class="projects-list flex gap-x-6 justify-center my-10">
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile10.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 7" src="../src/assets/images/thumbnail_mobile10.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -121,7 +176,8 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile8.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 8" src="../src/assets/images/thumbnail_mobile8.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
@@ -130,11 +186,46 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thumbnail_mobile9.webp" class="h-56 w-full object-cover" />
+                    <img alt="thumbnail mobile 9" src="../src/assets/images/thumbnail_mobile9.webp"
+                        class="h-56 w-full object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
                         <a href="#">
                             <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Home Rent UI
+                            </h3>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-list flex gap-x-6 justify-center my-10">
+                <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
+                    <img alt="thumbnail mobile 7" src="../src/assets/images/thumbnail_mobile7.webp"
+                        class="h-56 w-full object-cover" />
+
+                    <div class="bg-white p-4 sm:p-6">
+                        <a href="#">
+                            <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Doctor Appointment UI
+                            </h3>
+                        </a>
+                    </div>
+                </article>
+                <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
+                    <img alt="thumbnail mobile 8" src="../src/assets/images/thumbnail_mobile11.webp"
+                        class="h-56 w-full object-cover" />
+
+                    <div class="bg-white p-4 sm:p-6">
+                        <a href="#">
+                            <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Pizza Man UI
+                        </a>
+                    </div>
+                </article>
+                <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
+                    <img alt="thumbnail mobile 9" src="../src/assets/images/thumbnail_mobile12.webp"
+                        class="h-56 w-full object-cover" />
+
+                    <div class="bg-white p-4 sm:p-6">
+                        <a href="#">
+                            <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Mind Self UI
                             </h3>
                         </a>
                     </div>
@@ -151,29 +242,29 @@
                     </div>
                 </article>
                 <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thubmnail_cashier.png" class="h-56 w-96  object-cover" />
+                    <img alt="" src="../src/assets/images/thumbnail_createweb.webp" class="h-56 w-96  object-cover" />
 
                     <div class="bg-white p-4 sm:p-6">
-                        <a href="./pages/cashier_landing_page.html">
-                            <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Cashier Landing Page
+                        <a href="./pages/createweb_landing_page.html">
+                            <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">CreateWeb Landing Page
                         </a>
                     </div>
                 </article>
-                <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
-                    <img alt="" src="../src/assets/images/thubmnail_cashier.png" class="h-56 w-96  object-cover" />
+                <!-- <article class="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
+                        <img alt="" src="../src/assets/images/thubmnail_cashier.png" class="h-56 w-96  object-cover" />
 
-                    <div class="bg-white p-4 sm:p-6">
-                        <a href="./pages/cashier_landing_page.html">
-                            <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Cashier Landing Page
-                        </a>
-                    </div>
-                </article>
+                        <div class="bg-white p-4 sm:p-6">
+                            <a href="./pages/cashier_landing_page.html">
+                                <h3 class="mt-0.5 text-lg font-medium text-gray-900 text-center">Cashier Landing Page
+                            </a>
+                        </div>
+                    </article> -->
 
             </div>
         </section>
     </main>
 
-    <footer class="bg-gray-300">
+    <footer class="bg-gray-300" id="contact-me">
         <div class="mx-auto max-w-sm px-4 py-5 sm:px-6 lg:px-8">
             <ul class="mt-12 flex justify-center gap-6 md:gap-8">
                 <li>
