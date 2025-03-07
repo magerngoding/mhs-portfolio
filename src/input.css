@@ -12,3 +12,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+h3{
+    @apply mt-0.5 text-lg font-medium text-gray-900 text-center;
+}
+
+.card-projects{
+    @apply overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg;
+}
