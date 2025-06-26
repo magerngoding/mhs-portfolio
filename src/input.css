@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
 @font-face {
     font-family: 'Poppins';
     src: url(/src/assets/fonts/Poppins-Regular.ttf) format('truetype');
@@ -7,6 +9,8 @@
 
 html{
     scroll-behavior: smooth;
+    scrollbar-color: rgb(255, 255, 255) rgb(8, 1, 48);
+    scrollbar-width: 10px;
 }
 body{
     font-family: 'Poppins', sans-serif;
