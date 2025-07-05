@@ -487,6 +487,9 @@
     width: calc(var(--spacing) * 20);
     height: calc(var(--spacing) * 20);
   }
+  .h-23 {
+    height: calc(var(--spacing) * 23);
+  }
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
@@ -498,9 +501,6 @@
   }
   .h-27 {
     height: calc(var(--spacing) * 27);
-  }
-  .h-28 {
-    height: calc(var(--spacing) * 28);
   }
   .h-56 {
     height: calc(var(--spacing) * 56);
@@ -2139,8 +2139,6 @@
 }
 html {
   scroll-behavior: smooth;
-  scrollbar-color: rgb(255, 255, 255) rgb(8, 1, 48);
-  scrollbar-width: 10px;
 }
 body {
   font-family: 'Poppins', sans-serif;
