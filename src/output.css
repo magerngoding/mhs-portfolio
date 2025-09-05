@@ -10,11 +10,9 @@
     --color-amber-100: oklch(0.962 0.059 95.617);
     --color-yellow-300: oklch(0.905 0.182 98.111);
     --color-green-300: oklch(0.871 0.15 154.449);
-    --color-cyan-50: oklch(0.984 0.019 200.873);
     --color-blue-500: oklch(0.623 0.214 259.815);
     --color-purple-600: oklch(0.558 0.288 302.321);
     --color-gray-100: oklch(0.967 0.003 264.542);
-    --color-gray-200: oklch(0.928 0.006 264.531);
     --color-gray-300: oklch(0.872 0.01 258.338);
     --color-gray-400: oklch(0.707 0.022 261.325);
     --color-gray-500: oklch(0.551 0.027 264.364);
@@ -32,8 +30,6 @@
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
-    --text-2xl: 1.5rem;
-    --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-medium: 500;
@@ -519,9 +515,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -634,16 +627,8 @@
     --tw-translate-y: 100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
-  .translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * 1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .translate-x-1\.5 {
     --tw-translate-x: calc(var(--spacing) * 1.5);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-y-1 {
-    --tw-translate-y: calc(var(--spacing) * 1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-1\.5 {
@@ -1448,10 +1433,6 @@
   .align-top {
     vertical-align: top;
   }
-  .text-2xl {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -1563,12 +1544,6 @@
   }
   .text-black {
     color: var(--color-black);
-  }
-  .text-cyan-50 {
-    color: var(--color-cyan-50);
-  }
-  .text-gray-200 {
-    color: var(--color-gray-200);
   }
   .text-gray-300 {
     color: var(--color-gray-300);
@@ -1956,6 +1931,9 @@
   }
   .\[keywords\:node-addon-api\] {
     keywords: node-addon-api;
+  }
+  .\[n\:3\15 ��ԛ\] {
+    n: 3��ԛ;
   }
   .backface-hidden {
     backface-visibility: hidden;
