@@ -19,3 +19,7 @@ h3{
 .card-projects{
     @apply overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg;
 }
+
+.img-thumbnail{
+    @apply h-57 w-100  object-cover
+}
